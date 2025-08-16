@@ -1,0 +1,83 @@
+import streamlit as st
+import os
+
+
+def render_philosophy_tab():
+    # Load custom CSS if available
+    css_path = "assets/overlays/philosophy.css"
+    if os.path.exists(css_path):
+        with open(css_path, "r") as f:
+            st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+    st.markdown("## 🧠 The Philosophy Behind This App")
+    st.write("""
+This simulator is more than math—it’s a symbolic mirror. It helps us understand how change unfolds, how we predict the future, and how we reflect on uncertainty.
+""")
+
+    st.markdown("### 🌞 Explicit vs 🌑 Implicit")
+
+    col1, col2 = st.columns([1, 5])
+    with col1:
+        st.image(
+            "data:image/png;base64,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",
+            width=40,
+        )
+    with col2:
+        st.markdown(
+            "**Explicit**: Fast, intuitive—like guessing tomorrow’s weather from today’s sunshine."
+        )
+
+    col1, col2 = st.columns([1, 5])
+    with col1:
+        st.image(
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOkUf9i3KWpMMR1FNxzow6bma_zjiQKOUPA&s",
+            width=40,
+        )
+    with col2:
+        st.markdown(
+            "**Implicit**: Stable, reflective—like moonlight revealing hidden truths."
+        )
+
+    col1, col2 = st.columns([1, 5])
+    with col1:
+        st.image(
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFAP2QW_E3khg_k5LPjXY6W6yU0VisWyuz3g&s",
+            width=40,
+        )
+    with col2:
+        st.markdown("**Crank-Nicolson**: A breath between inhale and exhale.")
+
+    col1, col2 = st.columns([1, 5])
+    with col1:
+        st.image(
+            "data:image/png;base64,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",
+            width=40,
+        )
+    with col2:
+        st.markdown(
+            "**IMEX**: Lightning that splits time—handling fast and slow parts separately."
+        )
+
+    st.markdown("### 🌀 Why Symbolism Matters")
+    st.write("""
+Each method is wrapped in a lore card—a poetic overlay that turns equations into metaphors. This helps learners connect emotionally and intuitively with the math.
+""")
+
+    st.markdown("### 🎨 How It Works")
+    st.write("""
+You choose a method, simulate its behavior, and explore its symbolic meaning. Behind the scenes, Python and Streamlit do the math—but the front end tells a story.
+""")
+
+    st.markdown("### 🧬 Who Is This For?")
+    st.write("""
+- Curious learners  
+- Educators  
+- Philosophers  
+- Anyone who wonders how we model change
+""")
+
+    st.markdown("### 🌌 Final Thought")
+    st.write("""
+This app is a bridge—between intuition and rigor, sunlight and moonlight, breath and computation.  
+Welcome to a universe where math becomes myth.
+""")

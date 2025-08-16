@@ -1,0 +1,38 @@
+{
+  "https://mathcs.clarku.edu/~djoyce/": {
+    "title": "David Joyce's Home Page",
+    "local_file": "dejoyce\\index.html"
+  },
+  "https://mathcs.clarku.edu/~djoyce/13541801.jpg": {
+    "title": "Untitled",
+    "local_file": "dejoyce\\13541801.jpg"
+  },
+  "https://mathcs.clarku.edu/~djoyce/roulettes/roulettes.html": {
+    "title": "Little Gallery of Roulettes",
+    "local_file": "dejoyce\\roulettes.html"
+  },
+  "https://mathcs.clarku.edu/~djoyce/roulettes/more_epirs.html": {
+    "title": "More Epiroulettes",
+    "local_file": "dejoyce\\more_epirs.html"
+  },
+  "https://mathcs.clarku.edu/~djoyce/roulettes/more_hypors.html": {
+    "title": "More Hyporoulettes",
+    "local_file": "dejoyce\\more_hypors.html"
+  },
+  "https://mathcs.clarku.edu/~djoyce/roulettes/more_epis.html": {
+    "title": "More Epicycloids",
+    "local_file": "dejoyce\\more_epis.html"
+  },
+  "https://mathcs.clarku.edu/~djoyce/roulettes/more_roses.html": {
+    "title": "More Roses",
+    "local_file": "dejoyce\\more_roses.html"
+  },
+  "https://mathcs.clarku.edu/~djoyce/roulettes/roulpix.html": {
+    "title": "Roulettes in Pictures",
+    "local_file": "dejoyce\\roulpix.html"
+  },
+  "https://mathcs.clarku.edu/~djoyce/roulettes/more_hypos.html": {
+    "title": "More Hypocycloids",
+    "local_file": "dejoyce\\more_hypos.html"
+  }
+}

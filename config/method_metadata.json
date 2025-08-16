@@ -1,0 +1,26 @@
+{
+  "explicit": {
+    "name": "Forward Euler",
+    "symbol": "🔥",
+    "stability": "Low",
+    "type": "Explicit"
+  },
+  "implicit": {
+    "name": "Backward Euler",
+    "symbol": "🌊",
+    "stability": "High",
+    "type": "Implicit"
+  },
+  "crank-nicolson": {
+    "name": "Crank-Nicolson",
+    "symbol": "🌗",
+    "stability": "Balanced",
+    "type": "Hybrid"
+  },
+  "imex": {
+    "name": "IMEX",
+    "symbol": "⚡🌑",
+    "stability": "Split",
+    "type": "Hybrid"
+  }
+}

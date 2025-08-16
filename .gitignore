@@ -1,0 +1,33 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environments
+venv/
+.env/
+.envrc
+*.env
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Jupyter and Streamlit
+.ipynb_checkpoints/
+.streamlit/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Symbolic assets and overlays (optional)
+assets/overlays/*.tmp
+assets/symbolic_icons/*.bak

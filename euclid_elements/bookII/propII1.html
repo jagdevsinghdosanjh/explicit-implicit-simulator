@@ -1,0 +1,72 @@
+<HTML><HEAD>
+<TITLE>Euclid's Elements, Book II, Proposition 1</TITLE>
+<link rel="stylesheet" type="text/css" href="../elements.css">
+<script src="../elements.js"></script>
+</HEAD>
+<BODY>
+
+<div id="header"></div>
+<script>loadHeader();</script>
+
+<div class="theorem">
+<h1>Proposition 1</h1>
+
+<div class="statement">If there are two straight lines, and one of them is cut into any number of segments whatever, then the rectangle contained by the two straight lines equals the sum of the rectangles contained by the uncut straight line and each of the segments.</div>
+
+<p>Let <i>A</i> and <i>BC</i> be two straight lines, and let <i>BC</i> be cut at random at the points <i>D</i> and <i>E.</i>
+
+<div class="ldiagram">
+<img src="propII1.gif" hspace=10 alt="II.1">
+</div>
+
+<p>I say that the rectangle <i>A</i> by <i>BC</i> equals the sum of the rectangle <i>A</i> by <i>BD,</i> the rectangle <i>A</i> by <i>DE,</i> and the rectangle <i>A</i> by <i>EC.</i>
+
+<div class="just"><a href="../bookI/propI11.html">I.11</a>,
+<a href="../bookI/propI3.html">I.3</a>
+<br><a href="../bookI/propI31.html">I.31</a></div>
+<p>Draw <i>BF</i> from <i>B</i> at right angles to <i>BC.</i>  Make <i>BG</i> equal to <i>A.</i>  Draw <i>GH</i> through <i>G</i> parallel to <i>BC.</i>   Through <i>D, E,</i> and <i>C</i> draw <i>DK, EL,</i> and <i>CH</i> parallel to <i>BG.</i>
+
+<p>Then <i>BH</i> equals the sum of <i>BK, DL,</i> and <i>EH.</i>
+
+<div class="just"><a href=defII.html>II.Def.1</a>
+<br><a href="../bookI/propI34.html">I.34</a></div>
+<p>Now <i>BH</i> is the rectangle <i>A</i> by <i>BC,</i> for it is contained by <i>GB</i> and <i>BC,</i> and <i>BG</i> equals <i>A</i>; <i>BK</i> is the rectangle <i>A</i> by <i>BD,</i> for it is contained by <i>GB</i> and <i>BD,</i> and <i>BG</i> equals <i>A</i>; and <i>DL</i> is the rectangle <i>A</i> by <i>DE,</i> for <i>DK,</i> that is <i>BG,</i> equals <i>A.</i>  Similarly also <i>EH</i> is the rectangle <i>A</i> by <i>EC.</i>
+
+<p>Therefore the rectangle <i>A</i> by <i>BC</i> equals the sum of the rectangle <i>A</i> by <i>BD,</i> the rectangle <i>A</i> by <i>DE,</i> and the rectangle <i>A</i> by <i>EC.</i>
+
+<p>Therefore <i>if there are two straight lines, and one of them is cut into any number of segments whatever, then the rectangle contained by the two straight lines equals the sum of the rectangles contained by the uncut straight line and each of the segments.</i>
+
+<div class="qed">Q.E.D.</div>
+<br clear=all>
+</div>
+
+<a name=guide><h2>Guide</h2></a>
+
+<p>As described in <a href=defII.html>II.Def.1</a>, the phrase &ldquo;the rectangle contained by the two straight lines&rdquo; means any rectangle constructed with two sides equal to the two given sides.  In some sense this is the product of the two lines.
+When the sides have names, such as <i>A</i> and <i>BC,</i> we will refer to that rectangle by &ldquo;the rectangle <i>A</i> by <i>BC</i>&rdquo; since that is a little clearer than Euclid&rsquo;s terse &ldquo;the rectangle <i>A, BC.</i>&rdquo;
+
+<p>In this proposition Euclid proves that if 
+<p><center>
+<i>BC</i>&nbsp;=&nbsp;<i>BD</i>&nbsp;+&nbsp;<i>DE</i>&nbsp;+&nbsp;<i>EC,</i>
+</center>
+then
+<center>
+(<i>A</i> by <i>BC</i>)&nbsp;=&nbsp;(<i>A</i> by <i>BD</i>)&nbsp;+&nbsp;(<i>A</i> by <i>DE</i>)&nbsp;+&nbsp;(<i>A</i> by <i>EC</i>).
+</center><p>
+
+  In modern algebraic notation this could be stated as follows:
+If <i>y</i>&nbsp;=&nbsp;<i>y</i><sub>1</sub>&nbsp;+&nbsp;<i>y</i><sub>2</sub>&nbsp;+&nbsp;...&nbsp;+&nbsp;<i>y<sub>n</sub>,</i> then <i>xy</i>&nbsp;=&nbsp;<i>x</i>&nbsp;<i>y</i><sub>1</sub>&nbsp;+&nbsp;<i>x</i>&nbsp;<i>y</i><sub>2</sub>&nbsp;+&nbsp;...&nbsp;+&nbsp;<i>x&nbsp;y<sub>n</sub>.</i>  This can also be stated in a single equation as
+<p><center><i>x</i>&nbsp;(<i>y</i><sub>1</sub>&nbsp;+&nbsp;<i>y</i><sub>2</sub>&nbsp;+&nbsp;...&nbsp;+&nbsp;<i>y<sub>n</sub></i>)&nbsp;=&nbsp;<i>x&nbsp;y</i><sub>1</sub>&nbsp;+&nbsp;<i>x&nbsp;y</i><sub>2</sub>&nbsp;+&nbsp;...&nbsp;+&nbsp;<i>x y<sub>n</sub>.</i></center><p>
+
+Here <i>x</i> and the various <i>y<sub>i</sub></i>&rsquo;s are all lines, and <i>n</i> is an arbitrary number.   In modern terminology this identity is called the <i>distributive law</i> for multiplication over addition.
+
+<h4>Use of this proposition</h4>
+
+This proposition is not specifically invoked in the rest of the <i>Elements.</i>  The next two propositions, however, are special cases of it, and they are each explicitly used once.
+
+<div id="footer"></div>
+<script>
+  loadFooter("1996");
+</script>
+</BODY></HTML>
+

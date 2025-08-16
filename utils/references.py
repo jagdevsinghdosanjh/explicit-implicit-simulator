@@ -8,7 +8,7 @@ def render_reference_tab():
         "Numerical Methods for Partial Differential Equations": "https://ocw.mit.edu/courses/18-336-numerical-methods-for-partial-differential-equations-spring-2009/",
         "Finite Difference Methods for ODEs and PDEs – LeVeque": "https://faculty.washington.edu/rjl/fdmbook/",
         "Numerical Methods for Engineers – Chapra & Canale": "https://drive.google.com/file/d/1h0TOgQN1b5EcnHyENeZiWUgfq4cSiOtM/view",
-        "Stability Theory – Trefethen Lecture Notes": "https://people.maths.ox.ac.uk/trefethen/lectures.html",
+        "Stability Theory – Trefethen Lecture Notes": "https://www.maths.ox.ac.uk/events/public-lectures-events",
         "Symbolic Computation and Geometry – Springer": "https://link.springer.com/book/10.1007/978-3-030-20206-2",
         "Ancient Geometry and Philosophy – Euclid’s Elements": "https://mathcs.clarku.edu/~djoyce/elements/Euclid.html"
     }

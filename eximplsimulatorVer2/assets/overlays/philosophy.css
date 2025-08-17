@@ -1,0 +1,59 @@
+/* philosophy.css */
+body {
+    background: linear-gradient(to bottom right, #1e1e2f, #3a3a5a);
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+}
+/* body {
+    background: linear-gradient(to bottom right, #1e1e2f, #3a3a5a);
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+} */
+
+
+.philosophy-card {
+    padding: 2rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.svg-icon {
+    width: 40px;
+    height: 40px;
+    animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 0.6; }
+    50% { transform: scale(1.2); opacity: 1; }
+    100% { transform: scale(1); opacity: 0.6; }
+}
+
+/* Breath-inspired fade and pulse */
+@keyframes breathFade {
+    0% { opacity: 0.6; transform: scale(0.98); }
+    50% { opacity: 1; transform: scale(1.02); }
+    100% { opacity: 0.6; transform: scale(0.98); }
+}
+
+.philosophy-card {
+    padding: 2rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    animation: breathFade 6s ease-in-out infinite;
+    transition: all 0.3s ease;
+}
+
+.svg-icon {
+    width: 40px;
+    height: 40px;
+    animation: breathFade 4s ease-in-out infinite;
+}

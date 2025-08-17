@@ -58,5 +58,5 @@ def render_philosophy_tab():
     This app is a bridge—between intuition and rigor, sunlight and moonlight, breath and computation.  
     Welcome to a universe where math becomes myth. Myth a traditional story, especially one 
     concerning the early history of a people or explaining a natural or social phenomenon, 
-    and typically involving supernatural beings or events:
+    and typically involving supernatural beings or events. Real but Unknown to Visible Exitence.
     """)

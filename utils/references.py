@@ -17,13 +17,10 @@ def render_reference_tab():
     for title, link in references.items():
         st.markdown(f"- [{title}]({link})")
 
-st.subheader("📚 Reference Library")
-st.markdown("Explore numerical methods and share this app with others!")
-
-# Social media share buttons
+st.markdown("### 🔗 Share This App")
 html("""
 <div style="display: flex; gap: 10px; margin-top: 10px;">
-  <a href="https://twitter.com/intent/tweet?text=Check+out+this+Explicit-Implicit+Simulator!&url=https://explicit-implicit-simulator-byjsd.streamlit.app/" target="_blank">
+  <a href="https://twitter.com/intent/tweet?text=Explore+numerical+methods+with+this+Explicit-Implicit+Simulator!&url=https://explicit-implicit-simulator-byjsd.streamlit.app/" target="_blank">
     <img src="https://img.icons8.com/color/48/000000/twitter--v1.png" alt="Twitter"/>
   </a>
   <a href="https://www.facebook.com/sharer/sharer.php?u=https://explicit-implicit-simulator-byjsd.streamlit.app/" target="_blank">
@@ -34,3 +31,20 @@ html("""
   </a>
 </div>
 """, height=60)
+# st.subheader("📚 Reference Library")
+# st.markdown("Explore numerical methods and share this app with others!")
+
+# # Social media share buttons
+# html("""
+# <div style="display: flex; gap: 10px; margin-top: 10px;">
+#   <a href="https://twitter.com/intent/tweet?text=Check+out+this+Explicit-Implicit+Simulator!&url=https://explicit-implicit-simulator-byjsd.streamlit.app/" target="_blank">
+#     <img src="https://img.icons8.com/color/48/000000/twitter--v1.png" alt="Twitter"/>
+#   </a>
+#   <a href="https://www.facebook.com/sharer/sharer.php?u=https://explicit-implicit-simulator-byjsd.streamlit.app/" target="_blank">
+#     <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook"/>
+#   </a>
+#   <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://explicit-implicit-simulator-byjsd.streamlit.app/" target="_blank">
+#     <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"/>
+#   </a>
+# </div>
+# """, height=60)
